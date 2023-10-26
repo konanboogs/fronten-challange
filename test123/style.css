@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #090909;
+}
+html {
+    font-size: 62, 5%;
+}
+.wrapper {
+    margin: 0 auto;
+    top: 0;
+    width: 1200px;
+}
+.wrapper-one{
+    margin: 0 auto;
+    top: 0;
+    width: 1200px;
+}
+.nav-tab {
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-tab a {
+    text-decoration: none;
+    font-size: 1.5em;
+    margin: 5px 30px;
+    color: white;
+}
+.nav-tab a.left-button {
+    position: absolute;
+    left: 0%;
+    line-height: 180%;
+}
+.nav-tab a.right-button {
+    position: absolute;
+    right: -1%;
+    top: -4px;
+    line-height: 160%;
+    padding: 5px 20px;
+    background-color: #5318b2;
+    border-radius: 8px;
+    color: black;
+}
+.nav-tab a.right-button:hover {
+    background-color: rgb(98, 151, 98);
+}
+.header-item {
+    width: 800px;
+    height: 300px;
+    position: relative;
+    left: 9px;
+    margin-top: 80px;
+}
+.header-item h1 {
+    color: white;
+    padding: 20px;
+    font-size: 3rem;
+}
+.header-item p {
+    color: rgba(255, 255, 255, 0.808);
+    padding: 20px;
+    font-size: 1.5rem;
+}
+.main-first {
+    width: 100%;
+    height: 40px;
+}
+.main-first ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.main-first li {
+    line-height: 30px;
+    padding: 5px 7%;
+    color: rgb(255, 255, 255);
+}
+.main-two{
+    width: 600px;
+    height: 400px;
+}
+.main-two img{
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+    border-radius: 2px;
+    background-size: cover;
+    background-position: center;
+}
+.main-two h1{
+    color: white;
+    font-size: 3rem;
+    right: 0;
+}
+.main-two p{
+    padding-top: 10px;
+    color: rgba(255, 255, 255, 0.678);
+}
+
+.wrapper-main{
+    display: flex;
+}
+.main-three{
+    position: relative;
+    margin-top: 20%;
+    width: 100%;
+    height: 600px;
+    background-color: gray;
+    height: 450px;
+    background-color: gray;
+}
+.main-three .three-h1{
+    padding: 50px 65px;
+    width: 50%;
+    color: white;
+}
+
+.main-three .three-p{
+    
+    padding: 10px 60px;
+    color: rgba(255, 255, 255, 0.531);
+}
+.main-three .three-p2{
+    position: absolute;
+    margin-top: 60px;
+    right: 10%;
+    height: 580px;
+    bottom: 20px;
+    color: rgba(255, 255, 255, 0.613);
+}
+.main-four{
+    width: 100%;
+    height: 350px;
+    background-color: black;
+}
+.main-four .wrapper-one h1{
+    color: white;
+    padding: 5%;
+}
+.main-four .wrapper-one p{
+    color: white;
+    padding-left: 60px;
+}
+.main-four .wrapper-one button{
+    color: rgb(11, 10, 10);
+    margin-top: 50px;
+    margin-left: 57px;
+    border: 1px solid black;
+    font-size: 1.5rem;
+    padding: 8px 30px;
+    background-color: yellow;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.main-four .wrapper-one button:hover{
+   background-color: rgb(98, 151, 98);
+}
+.section{
+    position: relative;
+    height: 60px;
+    background-color: gray;
+}
+.section h1{
+    position: absolute;
+    top: 20%;
+    left: 50px;
+    color: white;
+
+}
+.section .icon-one{
+    position: absolute;
+    right: 80px;
+    top: 26px;
+    text-decoration: none;
+    color: white;
+}
+.section .icon-two{
+    position: absolute;
+    right: 140px;
+    top: 25px;
+    text-decoration: none;
+    color: white;
+}
+.section .icon-three{
+    position: absolute;
+    right: 200px;
+    top: 25px;
+    text-decoration: none;
+    color: white;
